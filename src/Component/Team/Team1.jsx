@@ -43,7 +43,7 @@ function Team() {
                 className="w-full max-w-[250px] h-[350px] sm:max-w-[350px] md:max-w-[400px] md:h-[520px] mx-auto rounded-lg bg-cover bg-center shadow-lg flex flex-col justify-end p-4"
                 style={{ backgroundImage: `url(${member.img})` }}
               >
-                <div className="text-white text-lg font-semibold bg-black/50 p-2 rounded-md text-center">
+                <div className="text-xs text-white sm:text-lg font-semibold bg-black/50 p-2 rounded-md text-center">
                   <p>{member.name}</p>
                   <p>{member.position}</p>
                 </div>
